@@ -1,0 +1,146 @@
+body {
+    background-color: #bfd4eb;
+    color: #2b4753;
+    font-family: monospace;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url("/fonts/Retroverrt.otf");
+}
+#title-style {
+    color: white;
+    font-size: 350px;
+    font-family: myFirstFont;
+    text-shadow: 1px 1px #c84437,
+                 2px 2px #c84437,
+                 3px 3px #c84437,
+                 4px 4px #c84437,
+                 5px 5px #c84437,
+                 6px 6px #c84437,
+                 7px 7px #c84437,
+                 8px 8px #c84437,
+                 9px 9px #c84437,
+                 10px 10px #c84437,
+                 11px 11px #c84437,
+                 12px 12px #c84437;
+    text-align: center;
+                 
+}
+#tag-line {
+    text-align: center;
+}
+nav {
+    font-size: 35px;
+    text-align: center;
+}
+nav ul {
+   list-style-type: none; 
+   text-align: center;
+}
+nav li {
+    padding-right: 40px;
+    padding-left: 40px;
+    display: inline;
+}
+a:link {
+    color: #2b4753;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: #519d59;
+    background-color: transparent;
+    text-decoration: none;
+  }
+#deal-of-day {
+    text-align: center;
+}
+#diner-pic-opaque {
+    opacity: 0.5;
+}
+#diner-img {
+    text-align: center;
+    position: relative;
+}
+#menu-cntr, #about-cntr, #contact-cntr {
+    font-size: 400px;
+    position: absolute;
+    top: 60%;
+    left: 49%;
+    transform: translate(-50%,-50%);
+}
+#menu-list {
+    text-align: center;
+    font-size: 20px;
+}
+hr {
+    width: 20%;
+    margin:0 auto;
+}
+h1 {
+    margin-top: -200px;
+    margin-bottom: -80px;
+}
+h2 {
+    font-size: 50px;
+}
+h3 {
+    font-size: 35px;
+}
+h5 {
+    font-size: 25px;
+}
+#founder-img {
+    text-align: center;
+}
+#founder-about {
+    text-align: center;
+    font-size: 30px;
+}
+#about-us {
+    font-size: 25px;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+/* Styling for input form*/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  #form-id {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  #contact-hr {
+      display: inline;
+  }
+  #contact-info {
+      text-align: center;
+  }
+  .menu-pic {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+  }
