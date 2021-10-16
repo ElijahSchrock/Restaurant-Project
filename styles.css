@@ -3,14 +3,10 @@ body {
     color: #2b4753;
     font-family: monospace;
 }
-@font-face {
-    font-family: myFirstFont;
-    src: url("/fonts/Retroverrt.otf");
-}
+
 #title-style {
     color: white;
     font-size: 350px;
-    font-family: myFirstFont;
     text-shadow: 1px 1px #c84437,
                  2px 2px #c84437,
                  3px 3px #c84437,
@@ -78,7 +74,7 @@ hr {
     margin:0 auto;
 }
 h1 {
-    margin-top: -200px;
+    margin-top: -80px;
     margin-bottom: -80px;
 }
 h2 {
