@@ -4,23 +4,12 @@ body {
     font-family: monospace;
 }
 
-#title-style {
-    color: white;
-    font-size: 350px;
-    text-shadow: 1px 1px #c84437,
-                 2px 2px #c84437,
-                 3px 3px #c84437,
-                 4px 4px #c84437,
-                 5px 5px #c84437,
-                 6px 6px #c84437,
-                 7px 7px #c84437,
-                 8px 8px #c84437,
-                 9px 9px #c84437,
-                 10px 10px #c84437,
-                 11px 11px #c84437,
-                 12px 12px #c84437;
-    text-align: center;
-                 
+#title {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height: auto;
 }
 #tag-line {
     text-align: center;
@@ -59,9 +48,9 @@ a:link {
     position: relative;
 }
 #menu-cntr, #about-cntr, #contact-cntr {
-    font-size: 400px;
+    font-size: 12vw;
     position: absolute;
-    top: 60%;
+    top: 65%;
     left: 49%;
     transform: translate(-50%,-50%);
 }
