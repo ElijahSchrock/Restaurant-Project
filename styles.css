@@ -129,3 +129,13 @@ input[type=text], select, textarea {
       height: 200px;
       border-radius: 50%;
   }
+  #feedback {
+      text-align: center;
+  }
+  #message {
+      text-align: center;
+      font-size: 50px;
+  }
+  #return-instr{
+      text-align: center;
+  }

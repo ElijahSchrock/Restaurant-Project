@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Submitted Comment Page</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="title-img">
+            <a href="index.html"><img id="title" src="images/pizza.jpg" alt="Restaurant name logo"></a>
+            </div>
+            <h3 id="tag-line"><p>The World's First 3D Printed Food Restaurant!</p></h3>
+                <h3 id="feedback">Thank you for your feedback!</h3>
+            <div>
+                <p id="message"></p>
+                <p id="return-instr"><b>You may click our <i>logo</i> to go back to the website</b></p>
+            </div>
+        <script type="text/javascript">
+            
+            var urlParams = new URLSearchParams(window.location.search);
+
+            let name = `${urlParams.get('firstname')} ${urlParams.get("lastname")}`;
+            let country = `${urlParams.get("country")}`;
+            let post = `${urlParams.get("subject")}`;
+            let prompt = document.querySelector("message");
+
+            document.getElementById("message").textContent = (`${name}, 3D Eats humbly thanks you for your feedback. As we stated, we are working hard to read through the feedback submissions. When we get to yours coming all the way from ${country}, you will hear from us! Thank you for saying " ${post} "`);
+        </script>
+    </body>
+</html>
