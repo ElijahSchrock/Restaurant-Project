@@ -134,7 +134,7 @@ input[type=text], select, textarea {
   }
   #message {
       text-align: center;
-      font-size: 50px;
+      font-size: 30px;
   }
   #return-instr{
       text-align: center;
